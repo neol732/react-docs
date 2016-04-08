@@ -8,7 +8,7 @@ var IS_MOBILE = (
     || navigator.userAgent.match(/Windows Phone/i)
 );
 
-var CodeMirrorEditor = React.createClass({displayName: "CodeMirrorEditor",
+var CodeMirrorEdito = React.createClass({displayName: "CodeMirrorEditor",
   componentDidMount: function() {
     if (IS_MOBILE) return;
 
